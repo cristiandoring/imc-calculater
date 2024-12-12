@@ -7,6 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>IMC Calculater</h1>
+    <p class="description">Calculate your body mass index quickly and easily.
+    </p>
+
+    <section id="input">
+        <section id="weight">
+            <label for="weight">Weight (kg)</label>
+            <input type="number" name="weight" id="iweight" class="number-input" placeholder="Enter your weight (kg)
+            ">
+        </section>
+        <section id="height">
+            <label for="height">Height (cm)</label>
+            <input type="number" name="height" id="iheight" class="number-input" placeholder="Enter your height (cm)
+            ">
+            <p id="height-example">Enter your height in cm. If you measure 1.70, enter 170.
+            </p>
+        </section>
+    </section>
+    <button id="calculate">Calculate</button>
     <script src="script.js"></script>
 </body>
 </html>
