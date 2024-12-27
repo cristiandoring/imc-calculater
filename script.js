@@ -14,6 +14,6 @@ function calculate(){
     }
     else{
         result = weight / ((height/100)**2)
-        response.innerHTML = `The IMC is ${result.toFixed(2)}!` 
+        response.innerHTML = `Your IMC is ${result.toFixed(2)}!` 
     }
 }
